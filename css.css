@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+header , .section2 , .section3 , .section4 {
+    border-bottom: solid rgba(136, 136, 136, 0.26);
+}
+
+.section2 {
+    border-top: solid rgba(136, 136, 136, 0.26);
+}
+
+aside {
+    border-left: solid rgba(136, 136, 136, 0.26);
+    padding-left : 2em;
+    width: 40%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(97, 96, 96);
+}
+
+.topright {
+    display: flex;
+    justify-content: space-evenly;
+    height: 3.4em;
+}
+
+.resume {
+    padding: 0.8em;
+    border: solid grey;
+    border-radius: 40px;
+    margin-top: 0.6em;
+}
+
+.resumeT{
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding: 0.9em;
+    margin: 1em;
+    padding-bottom: 1.6em;
+}
+
+.iconetopright{
+    padding: 1em;
+    display:flex;
+    justify-content: space-between;
+}
+
+.icona1 , .icona2 , .icona3 {
+    padding: 1em
+}
+
+header {
+    margin:3em;
+}
+
+.section1 {
+    text-align: center;
+    margin: 3em;
+    margin-top: 0;
+    margin-bottom: 6em;
+}
+
+.twitter {
+    border: solid rgb(116, 113, 113);
+    border-radius: 40px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.3em;
+}
+
+.logoxlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(83, 82, 82);
+    font-size: 1.8em;
+}
+
+.section1 :last-child {
+    color: gray;
+}
+
+.section2 {
+    margin-top: 6em;
+    margin-bottom: 6em;
+    padding-top: 4em;
+}
+
+.elenco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 1.5em;
+    margin-bottom: 3em;
+}
+
+.elenco div {
+    padding: 0.5em;
+    background-color: rgba(184, 218, 218, 0.61);
+    border-radius: 20px;
+    margin: 0.5em;
+    margin-left: 0.1em;
+}
+
+.section3 p {
+    color: grey;
+    margin: 0; 
+    font-size: 0.9em;
+}
+
+.section3 h5 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.section3 span {
+    border: solid rgb(87, 86, 86);
+    border-radius: 40px;
+}
+
+.section3 {
+    margin-right: 3em;
+    margin-bottom: 6em;
+}
+
+.section3 img {
+    border-radius: 40%;
+    margin-right: 1em;
+}
+
+.barra1 , .barra2 , .barra3 {
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.firstfollow , .secondfollow , .thirdfollow {
+    padding: 0.55em;
+    color: gray;
+    margin-bottom: 2.4em;
+    margin-left: 1.5em;
+}
+
+.section4 {
+    margin-bottom: 6em;
+    margin-right: 2em ;
+}
+.section4 span {
+    color: gray;
+    font-size: 0.8em;
+}
+
+.section4 p {
+    font-weight: bold;
+    margin: 0.3em;
+}
+
+ .section4 img , h6 {
+    display: inline;
+ }
+
+.s4blocco1 {
+    margin-bottom: 3em;
+}
+
+.seeall {
+    color: green;
+    margin-top: 1.5em;
+    margin-bottom: 5em;
+}
+
+.section5 {
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:2em ;
+    margin-top: 3em;
+}
+
+.section5 div {
+    padding-right: 1.5em;
+    padding-bottom: 0.8em;
+}
+
+.following {
+    display: inline;
+    margin: 3em;
+    color: gray;
+    font-weight: bold;
+}
+
+.recommended {
+    margin: 2em;
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+}
+
+.blocco1 , .blocco2 , .blocco3 ,  .blocco4 , .blocco5 , .blocco6 {
+    margin: 4em;
+    display: flex;
+    align-items: flex-end;
+}
+
+.blocco1 {
+    border-top: solid rgba(136, 136, 136, 0.26);
+}
+
+article h6 {
+    display: flex;
+}
+
+.smallphoto {
+    margin-right: 1em;
+}
+
+ .smallphoto img {
+    border-radius: 30px;
+ }
+
+article p {
+    color: gray;
+}
+
+article span {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.iconeblocco {
+    padding-left: 7em;
+    color: black;
+}
+
+.bigphoto {
+    margin-left: 2em;
+}
+
+.blocco4 .bigphoto { 
+    margin-left: 4.5em;
+}
